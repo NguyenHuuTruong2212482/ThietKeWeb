@@ -1,0 +1,11 @@
+.il1{padding-left: 25px;}
+
+.ul1{justify-content: flex-end;
+    display: flex;}
+.il2{padding: 25px;
+    list-style-type: none;  
+    }
+
+.il3{list-style-type: none;
+    display: flex;
+    justify-content: flex-end; }
