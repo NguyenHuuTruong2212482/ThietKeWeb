@@ -1,0 +1,17 @@
+* { color: red; } /* mọi phần tử đều có chữ màu đỏ */
+
+h2 { color: red; } /* các phần tử h2 có chữ màu đỏ */
+
+.greencolor { color: green; }
+#yellowcolor { color: yellow; } 
+
+/* phần tử có thuộc tính là class sẽ có màu tím, không quan tâm giá trị class là gì */
+[class] { color: violet; } 
+
+h3, p, #yellowcolor { color: blue }
+
+h1 em, h2 em, h3 em { color: red; }/* mọi phần tử em nằm trong h1, hoặc h2, hoặc h3 sẽ có chữ màu đỏ */
+li h3 em { color: red; } /*phần tử em trong h3 trong li có chữ màu đỏ*/
+
+p.violetcolor { color: violet; } /* bộ chọn hỗn hợp  */
+
